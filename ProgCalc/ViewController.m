@@ -141,7 +141,7 @@
     }
 
     // ２桁以上は入力させない
-    if ( num >= 100 ) {
+    if ( [self isOverNumer:num] ) {
         return;
     }
 
@@ -155,6 +155,15 @@
         self.label2.text = str;
     }
     
+}
+
+-(bool)isOverNumer:(int)num
+{
+    if ( num >= 100 ) {
+        return YES;
+    } else {
+        return NO;
+    }
 }
 
 -(void)pushOp:(int)op
