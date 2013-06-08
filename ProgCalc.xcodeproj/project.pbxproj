@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCBDE4E2176330AD00806535 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDE4E1176330AD00806535 /* UIKit.framework */; };
+		FCBDE4E4176330AD00806535 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDE4E3176330AD00806535 /* Foundation.framework */; };
+		FCBDE4E6176330AD00806535 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCBDE4E5176330AD00806535 /* CoreGraphics.framework */; };
+		FCBDE4EC176330AD00806535 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCBDE4EA176330AD00806535 /* InfoPlist.strings */; };
+		FCBDE4EE176330AD00806535 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDE4ED176330AD00806535 /* main.m */; };
+		FCBDE4F2176330AD00806535 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDE4F1176330AD00806535 /* AppDelegate.m */; };
+		FCBDE4F4176330AD00806535 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBDE4F3176330AD00806535 /* Default.png */; };
+		FCBDE4F6176330AD00806535 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBDE4F5176330AD00806535 /* Default@2x.png */; };
+		FCBDE4F8176330AD00806535 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCBDE4F7176330AD00806535 /* Default-568h@2x.png */; };
+		FCBDE4FB176330AD00806535 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBDE4FA176330AD00806535 /* ViewController.m */; };
+		FCBDE4FE176330AD00806535 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBDE4FC176330AD00806535 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCBDE4DE176330AD00806535 /* ProgCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBDE4E1176330AD00806535 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCBDE4E3176330AD00806535 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCBDE4E5176330AD00806535 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCBDE4E9176330AD00806535 /* ProgCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProgCalc-Info.plist"; sourceTree = "<group>"; };
+		FCBDE4EB176330AD00806535 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCBDE4ED176330AD00806535 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCBDE4EF176330AD00806535 /* ProgCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProgCalc-Prefix.pch"; sourceTree = "<group>"; };
+		FCBDE4F0176330AD00806535 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCBDE4F1176330AD00806535 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCBDE4F3176330AD00806535 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FCBDE4F5176330AD00806535 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FCBDE4F7176330AD00806535 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FCBDE4F9176330AD00806535 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCBDE4FA176330AD00806535 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCBDE4FD176330AD00806535 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCBDE4DB176330AD00806535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDE4E2176330AD00806535 /* UIKit.framework in Frameworks */,
+				FCBDE4E4176330AD00806535 /* Foundation.framework in Frameworks */,
+				FCBDE4E6176330AD00806535 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCBDE4D5176330AD00806535 = {
+			isa = PBXGroup;
+			children = (
+				FCBDE4E7176330AD00806535 /* ProgCalc */,
+				FCBDE4E0176330AD00806535 /* Frameworks */,
+				FCBDE4DF176330AD00806535 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCBDE4DF176330AD00806535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDE4DE176330AD00806535 /* ProgCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCBDE4E0176330AD00806535 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDE4E1176330AD00806535 /* UIKit.framework */,
+				FCBDE4E3176330AD00806535 /* Foundation.framework */,
+				FCBDE4E5176330AD00806535 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCBDE4E7176330AD00806535 /* ProgCalc */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDE4F0176330AD00806535 /* AppDelegate.h */,
+				FCBDE4F1176330AD00806535 /* AppDelegate.m */,
+				FCBDE4F9176330AD00806535 /* ViewController.h */,
+				FCBDE4FA176330AD00806535 /* ViewController.m */,
+				FCBDE4FC176330AD00806535 /* ViewController.xib */,
+				FCBDE4E8176330AD00806535 /* Supporting Files */,
+			);
+			path = ProgCalc;
+			sourceTree = "<group>";
+		};
+		FCBDE4E8176330AD00806535 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCBDE4E9176330AD00806535 /* ProgCalc-Info.plist */,
+				FCBDE4EA176330AD00806535 /* InfoPlist.strings */,
+				FCBDE4ED176330AD00806535 /* main.m */,
+				FCBDE4EF176330AD00806535 /* ProgCalc-Prefix.pch */,
+				FCBDE4F3176330AD00806535 /* Default.png */,
+				FCBDE4F5176330AD00806535 /* Default@2x.png */,
+				FCBDE4F7176330AD00806535 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCBDE4DD176330AD00806535 /* ProgCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBDE501176330AD00806535 /* Build configuration list for PBXNativeTarget "ProgCalc" */;
+			buildPhases = (
+				FCBDE4DA176330AD00806535 /* Sources */,
+				FCBDE4DB176330AD00806535 /* Frameworks */,
+				FCBDE4DC176330AD00806535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgCalc;
+			productName = ProgCalc;
+			productReference = FCBDE4DE176330AD00806535 /* ProgCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCBDE4D6176330AD00806535 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "kazuyoshi kawakami";
+			};
+			buildConfigurationList = FCBDE4D9176330AD00806535 /* Build configuration list for PBXProject "ProgCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCBDE4D5176330AD00806535;
+			productRefGroup = FCBDE4DF176330AD00806535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCBDE4DD176330AD00806535 /* ProgCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCBDE4DC176330AD00806535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDE4EC176330AD00806535 /* InfoPlist.strings in Resources */,
+				FCBDE4F4176330AD00806535 /* Default.png in Resources */,
+				FCBDE4F6176330AD00806535 /* Default@2x.png in Resources */,
+				FCBDE4F8176330AD00806535 /* Default-568h@2x.png in Resources */,
+				FCBDE4FE176330AD00806535 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCBDE4DA176330AD00806535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBDE4EE176330AD00806535 /* main.m in Sources */,
+				FCBDE4F2176330AD00806535 /* AppDelegate.m in Sources */,
+				FCBDE4FB176330AD00806535 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCBDE4EA176330AD00806535 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCBDE4EB176330AD00806535 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCBDE4FC176330AD00806535 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCBDE4FD176330AD00806535 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCBDE4FF176330AD00806535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCBDE500176330AD00806535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCBDE502176330AD00806535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProgCalc/ProgCalc-Prefix.pch";
+				INFOPLIST_FILE = "ProgCalc/ProgCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCBDE503176330AD00806535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProgCalc/ProgCalc-Prefix.pch";
+				INFOPLIST_FILE = "ProgCalc/ProgCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCBDE4D9176330AD00806535 /* Build configuration list for PBXProject "ProgCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBDE4FF176330AD00806535 /* Debug */,
+				FCBDE500176330AD00806535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBDE501176330AD00806535 /* Build configuration list for PBXNativeTarget "ProgCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBDE502176330AD00806535 /* Debug */,
+				FCBDE503176330AD00806535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCBDE4D6176330AD00806535 /* Project object */;
+}
